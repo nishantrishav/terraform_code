@@ -1,7 +1,7 @@
 variable "ami_id" {
   description = "The ID of the AMI to use for EC2 instances"
   type        = string
-  default     = "ami-0d442a425e2e0a743"  
+  default     = "ami-0cf10cdf9fcd62d37"  
 }
 
 variable "instance_type" {
@@ -18,7 +18,7 @@ variable "vpc_cidr_block" {
 
 variable "aws_region" {
   description = "The AWS region"
-  default     = "us-west-2"
+  default     = "ap-south-1"
 }
 
 variable "aws_access_key" {
